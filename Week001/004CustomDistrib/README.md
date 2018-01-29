@@ -1,4 +1,4 @@
-## Notaí
+## Notaí
 
 ### Gaussian Distribution
 
