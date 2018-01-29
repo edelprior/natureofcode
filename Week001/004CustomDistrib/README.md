@@ -1,4 +1,6 @@
-## Gaussian Distribution
+## Notaí
+
+### Gaussian Distribution
 
 ```nextGaussian(): ``` Gives a 'normal' distribution of random numbers with a mean of Zero and 
  a Standard Deviation of one. 
