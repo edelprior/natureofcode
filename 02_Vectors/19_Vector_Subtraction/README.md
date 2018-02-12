@@ -1,18 +1,15 @@
 ## Notaí
 
-### Gaussian Distribution
+###Sketch 19 :: Vector Subtraction
+####Vectors are what?
+Its another way to store an (x, y) value. They're massively necessary and useful.
+- Makes it easy to figure out the distance between two points (magnitude)
+- Makes it more efficient in storing a location.
 
-```nextGaussian(): ``` Gives a 'normal' distribution of random numbers with a mean of Zero and 
- a Standard Deviation of one. 
- It returns a double. 
- 
 
-#### Mean
+#### So how do we take two locations away from each other?
 
-The mean is the sum divided by the count, **the Average Number.** 
+Subtracting two vectors, brings the object the opposite way, giving you the distance between them originally, and the magnitude.
+``` var vectorLine = mouse.sub(center); ```
 
-#### Standard Deviation 
-Displays how much the rest of the numbers differ from the mean. E.G. 68% of our Population are within 170cm - 190cm
-i.ie. The deviation is a distance of 20cm.
-- ```randomGaussian() ``` generates a random number between 1 and 0 with a standard deviation of 1 and a mean of 0. 
-This means, there is a 68% of the number returned being between -1 and 1.
+This takes the vector vectorLine away from the center point of the canvas.

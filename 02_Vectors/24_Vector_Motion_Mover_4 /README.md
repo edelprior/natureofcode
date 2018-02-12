@@ -1,18 +1,21 @@
 ## Notaí
 
-### Gaussian Distribution
+###Sketch 24 :: An array of Movers
+####Vectors are what?
+Its another way to store an (x, y) value. They're massively necessary and useful.
+- Makes it easy to figure out the distance between two points (magnitude)
+- Makes it more efficient in storing a location.
 
-```nextGaussian(): ``` Gives a 'normal' distribution of random numbers with a mean of Zero and 
- a Standard Deviation of one. 
- It returns a double. 
- 
 
-#### Mean
+#### What is Non static?
+It is the **called from the object instance - velocity.add(location)**
 
-The mean is the sum divided by the count, **the Average Number.** 
+In the Mover class, we make movers an array [], and we declare the size of the [] in the steup().
 
-#### Standard Deviation 
-Displays how much the rest of the numbers differ from the mean. E.G. 68% of our Population are within 170cm - 190cm
-i.ie. The deviation is a distance of 20cm.
-- ```randomGaussian() ``` generates a random number between 1 and 0 with a standard deviation of 1 and a mean of 0. 
-This means, there is a 68% of the number returned being between -1 and 1.
+And then in draw() we call the functions in the movers[].
+```for (var i = 0; i < movers.length; i++){
+  movers[i].update();
+  movers[i].display();
+}
+
+```
