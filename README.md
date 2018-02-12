@@ -9,22 +9,22 @@ Semester 2 of Data Viz using P5.
 3. Forces
 4. Particle Systems
 
-##GIT command
+## GIT command
 You can clone a repository.
-```
+```javascript
 git clone https://github.com/edelprior/natureofcode.git
 ```
 
 Make a push.
-```
+```javascript
 git push -u origin master
 ```
 Type the following to pull the latest version to your machine
-```
+```javascript
 git pull
 ```
 Other ones you'll need
-```
+```javascript
 git add .
 git status
 git log
