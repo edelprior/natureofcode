@@ -11,11 +11,11 @@ changes octaves and importance of each other. Time and degree of incrementation 
 ``` 
 Map()
 ```
-takes five parameters -Value
-                      -Current Min. 
-                      -Current Max.
-                      -New Min. 
-                      -New Max.
+takes five parameters *Value
+                      *Current Min. 
+                      *Current Max.
+                      *New Min. 
+                      *New Max.
 
 Similar to scale function in D3.
 
