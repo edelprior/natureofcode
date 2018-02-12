@@ -11,15 +11,15 @@ changes octaves and importance of each other. Time and degree of incrementation 
 ``` 
 Map()
 ```
-takes five parameters - Value
-                      - Current Min. 
-                      - Current Max.
-                      - New Min. 
-                      - New Max.
+takes five parameters -Value
+                      -Current Min. 
+                      -Current Max.
+                      -New Min. 
+                      -New Max.
 
 Similar to scale function in D3.
 
-#### 2Dimensional Noise Pixel Arrays
+#### 2 Dimensional Noise Pixel Arrays
 Is on a grid rather than a path, smooth values on a plane of pixels.
 So colours saved are individual - R values are: index [0], index [4]
 
