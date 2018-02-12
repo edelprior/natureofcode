@@ -5,7 +5,7 @@ Semester 2 of Data Viz using P5.
 ## The whole aim of this Module is to simulate motion on a screen, using Vectors.
 
 1. [Randomness, Perlin Noise, Probability](001DrunkMan/)
-2. [Vectors and Motion] (002Vectors/
+2. [Vectors and Motion] (02_Vectors/)
 3. Forces
 4. Particle Systems
 
