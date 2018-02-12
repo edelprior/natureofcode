@@ -13,7 +13,7 @@ Simply put, its another way to store an (x, y) value. They're massively necessar
 Generally we don't use classes when we're messing about with vectors, it just makes thing less complicated (for the time being).
 **Velocity** and **Acceleration** are two very important factors that need thinking about.
 **Velocity = Speed at which something is moving**
-**Acceleration = Force ***
+**Acceleration = Force**
 
 the velocity declared in the following piece of code means that the object/vector is moving at 2 frames per second. It is put in the draw() function, so each time the screen loads, it takes the current xLocation and adds xSpeed.
 ``` xSpeed=2 ```
