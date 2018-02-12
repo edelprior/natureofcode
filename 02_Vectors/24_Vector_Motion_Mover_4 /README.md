@@ -10,9 +10,9 @@ Its another way to store an (x, y) value. They're massively necessary and useful
 #### What is Non static?
 It is the **called from the object instance - velocity.add(location)**
 
-In the Mover class, we make movers an array, and we declare the size of the [] in the ``` js steup()```
+In the Mover class, we make movers an array, and we declare the size of the ```[]``` in the ``` setup()```
 
-And then in ```js draw() ``` we call the functions in the ```js movers[]```
+And then in ```draw() ``` we call the functions in the ```movers[]```
 ```js 
 for (var i = 0; i < movers.length; i++){
   movers[i].update();
