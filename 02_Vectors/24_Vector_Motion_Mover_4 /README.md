@@ -8,7 +8,7 @@ Its another way to store an (x, y) value. They're massively necessary and useful
 
 
 #### What is Non static?
-It is the **called from the object instance - velocity.add(location)**
+It is the **called from the object instance - ```velocity.add(location)```**
 
 In the Mover class, we make movers an array, and we declare the size of the ```[]``` in the ``` setup()```
 
