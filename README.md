@@ -9,7 +9,7 @@ Semester 2 of Data Viz using P5.
 3. Forces
 4. Particle Systems
 
-## Some standard GIT command
+##GIT command
 You can clone a repository.
 ```
 git clone https://github.com/edelprior/natureofcode.git
