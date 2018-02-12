@@ -1,6 +1,6 @@
 ## Notaí
 
-###Sketch 15 :: Your typical Vector
+### Sketch 15 :: Your typical Vector
 
 Usually, a vector is visualised as an Arrow, something that has magnitude/direction.
 In computing terms, a _Vector_ is always drawn from the (0,0) top left hand corner of the screen.
