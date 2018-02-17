@@ -1,7 +1,7 @@
 ## Notaí
 
-###Sketch 18 :: Vector Addition, making life a lot easier
-####Vectors are what?
+### Sketch 18 :: Vector Addition, making life a lot easier
+#### Vectors are what?
 Its another way to store an (x, y) value. They're massively necessary and useful.
 - Makes it easy to figure out the distance between two points (magnitude)
 - Makes it more efficient in storing a location.

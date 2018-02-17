@@ -1,14 +1,14 @@
 ## Notaí
 
-###Sketch 17 :: Lets simplify some code, for the craic
-####Vectors are what?
+### Sketch 17 :: Lets simplify some code, for the craic
+#### Vectors are what?
 Its another way to store an (x, y) value. They're massively necessary and useful.
 - Makes it easy to figure out the distance between two points (magnitude)
 - Makes it more efficient in storing a location.
 
 
 #### Different method of storing two vectors, called Position and Velocity
-**NB: Position = location**
+#### Position = location
 
 **Velocity = Speed at which something is moving**
 

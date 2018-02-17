@@ -1,7 +1,7 @@
 ## Notaí
 
-###Sketch 19 :: Vector Subtraction
-####Vectors are what?
+### Sketch 19 :: Vector Subtraction
+#### Vectors are what?
 Its another way to store an (x, y) value. They're massively necessary and useful.
 - Makes it easy to figure out the distance between two points (magnitude)
 - Makes it more efficient in storing a location.
