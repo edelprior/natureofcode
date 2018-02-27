@@ -1,18 +1,22 @@
 ## Notaí
 
-### Gaussian Distribution
+### Sketch 23 Part 1 :: Bringing in Classes ohohoo with Velocity 
+#### Vectors are what?
+Its another way to store an (x, y) value. They're massively necessary and useful.
+- Makes it easy to figure out the distance between two points (magnitude)
+- Makes it more efficient in storing a location.
 
-```nextGaussian(): ``` Gives a 'normal' distribution of random numbers with a mean of Zero and 
- a Standard Deviation of one. 
- It returns a double. 
- 
 
-#### Mean
+#### Our new Mover() class
 
-The mean is the sum divided by the count, **the Average Number.** 
-
-#### Standard Deviation 
-Displays how much the rest of the numbers differ from the mean. E.G. 68% of our Population are within 170cm - 190cm
-i.ie. The deviation is a distance of 20cm.
-- ```randomGaussian() ``` generates a random number between 1 and 0 with a standard deviation of 1 and a mean of 0. 
-This means, there is a 68% of the number returned being between -1 and 1.
+Putting them all in a class, will mean that we can program moving objects, with any number of an array, and it will be coded efficiently.
+The mover will describe the objects that move around the screen. So what data do we put in here, and what functionality do we want each mover to have?
+So we need to know the location and the velocity (both vectors)
+And they need to be able to move per each frame 
+```js
+update()
+```
+And they need to be drawn onto the screen, otherwise we won't see them
+```js 
+draw()
+```

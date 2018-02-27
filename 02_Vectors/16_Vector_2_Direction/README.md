@@ -1,18 +1,18 @@
 ## Notaí
 
-### Gaussian Distribution
+### Sketch 16 :: Adding a ySpeed to a vector
+#### Vectors are what?
+Its another way to store an (x, y) value. They're massively necessary and useful.
+- Makes it easy to figure out the distance between two points (magnitude)
+- Makes it more efficient in storing a location.
 
-```nextGaussian(): ``` Gives a 'normal' distribution of random numbers with a mean of Zero and 
- a Standard Deviation of one. 
- It returns a double. 
- 
 
-#### Mean
+#### xSpeeds and ySpeeds
+**Velocity** and **Acceleration** are two very important factors that need thinking about.
+- **Velocity = Speed at which something is moving**
+- **Acceleration = Force**
 
-The mean is the sum divided by the count, **the Average Number.** 
+The velocity declared in the following piece of code means that the object/vector is moving at 2 frames per second. It is put in the draw() function, so each time the screen loads, it takes the current xLocation and adds xSpeed.
 
-#### Standard Deviation 
-Displays how much the rest of the numbers differ from the mean. E.G. 68% of our Population are within 170cm - 190cm
-i.ie. The deviation is a distance of 20cm.
-- ```randomGaussian() ``` generates a random number between 1 and 0 with a standard deviation of 1 and a mean of 0. 
-This means, there is a 68% of the number returned being between -1 and 1.
+Adding a ySpeed, allows us to store 4 values in memory, with two vectors.
+This means our Vector now has two velocity values.

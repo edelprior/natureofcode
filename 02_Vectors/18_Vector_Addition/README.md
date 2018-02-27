@@ -1,18 +1,15 @@
 ## Notaí
 
-### Gaussian Distribution
+### Sketch 18 :: Vector Addition, making life a lot easier
+#### Vectors are what?
+Its another way to store an (x, y) value. They're massively necessary and useful.
+- Makes it easy to figure out the distance between two points (magnitude)
+- Makes it more efficient in storing a location.
 
-```nextGaussian(): ``` Gives a 'normal' distribution of random numbers with a mean of Zero and 
- a Standard Deviation of one. 
- It returns a double. 
- 
 
-#### Mean
+#### So how do we add two locations together?
 
-The mean is the sum divided by the count, **the Average Number.** 
-
-#### Standard Deviation 
-Displays how much the rest of the numbers differ from the mean. E.G. 68% of our Population are within 170cm - 190cm
-i.ie. The deviation is a distance of 20cm.
-- ```randomGaussian() ``` generates a random number between 1 and 0 with a standard deviation of 1 and a mean of 0. 
-This means, there is a 68% of the number returned being between -1 and 1.
+Think of it as two snooker balls hitting the same location, the **Resultant** vector, is where they both end up, and the product of the two locations added together.
+Take the vector position and add velocity to it, the result is the movement in each frame.
+So instead of  ```position.x = position.x + velocity; ```
+We have ```position.add(velocity);```
