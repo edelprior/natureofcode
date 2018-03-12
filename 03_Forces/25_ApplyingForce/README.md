@@ -1,6 +1,6 @@
 ## Notaí
 
-### Sketch 25 :: Forces and the Laws of Motion
+### Sketch 25 :: Applying Force
 #### Who was this Newton fella?
 Basically Newton understood the way everything (gravity etc) worked in the real world, and by translating it into the yummy digital world it means as follows:
 #### The First Thing he said
@@ -19,5 +19,7 @@ This is your Mans third law, and the most important part of it is that it means 
 Think of this Acceleration malarkey in the sense of someone pushing against you, the harder they push, the faster you'll fall and embarrass yourself. But the fatter you are, the slower you'll fall. Silver Linings.
 So as hard as someone pushes you, is directly proportional to how fast you'll fall, so it can be said, **Acceleration = Force**
 
-#### Lets put all these big Sciencey words into context
-**Location is mucked about with by Velocity, and Velocity by Acceleration. And Acceleration is equal to Force.**
+### The Sketch itself
+In Sketch 25, simply using an ```ApplyForce()``` Function in the sketch and calling it along with Acceleration in the mover class, we can mimic the Natural World.
+
+#### So putting all these big Sciencey words into context :: Location is mucked about with by Velocity, and Velocity by Acceleration. And Acceleration is equal to Force.
