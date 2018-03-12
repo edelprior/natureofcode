@@ -1,8 +1,6 @@
 ## Nature of Code: Vectors
 
-Vectors
-
-### Sections to be covered
+### Contents
 1. [Direction #1](15_Vector_1_Direction)
 2. [Direction #2](16_Vector_2_Direction)
 3. [Directions Using Vectors](17_Vector_2_Directions_Using_Vectors)
