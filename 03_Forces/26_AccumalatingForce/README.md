@@ -7,5 +7,5 @@ There are in  fact many different forces such as wind and gravity, affecting eve
 
 ### The Sketch itself
 In Sketch 26, using an ```ApplyForce()``` and ```this.acceleration.add(force)``` means that all the forces that are applied to the object on the screen are added and can be described as the 'Net Force'.
- 
+
 #### So putting all these big Sciencey words into context :: Location is mucked about with by Velocity, and Velocity by Acceleration. And Acceleration is equal to Force.
