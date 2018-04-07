@@ -7,7 +7,7 @@ Semester 2 of Data Viz using P5.
 1. [Randomness, Perlin Noise, Probability](001DrunkMan/)
 2. [Vectors and Motion](15_Vector_1_Direction/)
 3. [Forces](03_Forces/)
-4. Particle Systems
+4. [Oscillation] (04_Oscillation/)
 
 ## GIT command
 You can clone a repository.

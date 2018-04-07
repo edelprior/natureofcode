@@ -15,7 +15,7 @@ var Mover = function(_x, _y, _vx, _vy, _ax, _ay, _mass) {
   this.display = function() {
     stroke(1);
     strokeWeight();
-    fill(79,30,16);
+    fill(200,0,0,40);
     ellipse(this.location.x, this.location.y, 80,80);
 
   }
