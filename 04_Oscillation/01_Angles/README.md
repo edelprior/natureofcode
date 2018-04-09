@@ -1,25 +1,13 @@
 ## Notaí
 
-### Sketch 25 :: Applying Force
-#### Who was this Newton fella?
-Basically Newton understood the way everything (gravity etc) worked in the real world, and by translating it into the yummy digital world it means as follows:
-#### The First Thing he said
-- An object at rest stays at rest and an object in motion stays in motion.
-An objects PVector velocity will remain constant if it is in a state of Equilibrium.
-This means that if you set an object to have a specific velocity it will stay like that, forever unless "acted upon by an unbalanced force."
+### Sketch 31 :: Angles
+#### Radians or Degrees, who wore it better?
 
+Degrees = Radians in 'Real Life', they're the same thing just computers only understand degrees as radians.
+Technically, a radian s a unit of measurement for angles defined by the ratio of the length of the arc of a circle to the radius, of said circle. But you don't need to remember that, that ```radians();``` will convert any angle thats in degrees, into radians.
 
-#### The Third Thing he said
-- For every action there's an equal and opposite reaction
-This is your Mans third law, and the most important part of it is that it means Forces always come in pairs, the two area of exact equal strength, but in opposite directions... Think of pushing against a wall/ pushing against the system.
-
-
-#### The Second and most important Thing he said
-- Force equals mass * Acceleration
-Think of this Acceleration malarkey in the sense of someone pushing against you, the harder they push, the faster you'll fall and embarrass yourself. But the fatter you are, the slower you'll fall. Silver Linings.
-So as hard as someone pushes you, is directly proportional to how fast you'll fall, so it can be said, **Acceleration = Force**
+#### Formula to remember, that will always save you
+**Radians = 2*PI*(degrees/360)**
 
 ### The Sketch itself
-In Sketch 25, simply using an ```ApplyForce()``` Function in the sketch and calling it along with Acceleration in the mover class, we can mimic the Natural World.
-
-#### So putting all these big Sciencey words into context :: Location is mucked about with by Velocity, and Velocity by Acceleration. And Acceleration is equal to Force.
+It's common practice to start calling your Angular Velocity etc aVelocity, save getting confused in the future. This example rotates the shape using vectors created, and the function rotate(angle). It is important to use the Pop/Push method so that it rotates around the overall canvas.
